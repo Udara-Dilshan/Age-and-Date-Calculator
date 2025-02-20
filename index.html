@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age and Date Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="navbar-title">Age & Date Calculator</span>
+  </nav>
+
+  <div class="container">
+    <section class="calculator-section">
+      <h2>Calculate Your Age 🧑‍💻</h2>
+      <div class="calculator">
+        <input type="date" id="birthdate" class="input-field">
+        <button onclick="calculateAge()" class="btn">Calculate Age</button>
+        <p id="age-result"></p>
+      </div>
+    </section>
+
+
+    <section class="calculator-section">
+      <h2>Calculate Date Difference 📅</h2>
+      <div class="calculator">
+        <input type="date" id="start-date" class="input-field">
+        <input type="date" id="end-date" class="input-field">
+        <button onclick="calculateDateDiff()" class="btn">Calculate Difference</button>
+        <p id="date-diff-result"></p>
+      </div>
+    </section>
+  </div>
+
+ 
+  <footer>
+    <p>Created by Udara Dilshan</p>
+  </footer>
+</body>
+</html>
