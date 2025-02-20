@@ -13,6 +13,9 @@ This is a simple web-based application that allows users to:
 - **CSS**: Styling and responsive design.
 - **JavaScript**: Logic for age calculation and date difference calculation.
 
+## 🌐 Live Demo  
+[View Live Demo](https://udara-dilshan.github.io/Age-and-Date-Calculator/)  
+
 ## Installation:
 1. Clone this repository to your local machine:
    ```bash
